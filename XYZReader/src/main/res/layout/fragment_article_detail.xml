@@ -95,7 +95,7 @@
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <ImageButton android:id="@+id/share_fab"
+    <android.support.design.widget.FloatingActionButton android:id="@+id/share_fab"
         android:stateListAnimator="@anim/fab_state_list_anim"
         android:background="@drawable/add_fab_background"
         android:layout_gravity="bottom|end"
@@ -105,6 +105,7 @@
         android:layout_height="@dimen/fab_height"
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
+        app:rippleColor="@color/toolbar_color"
         android:contentDescription="@string/action_share" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
